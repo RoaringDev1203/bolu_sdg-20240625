@@ -1,0 +1,998 @@
+{
+    "devices": [
+        {
+            "device_id": 1,
+            "asset_id": 1,
+            "enabled": 1,
+            "measurement": [
+                {
+                    "type": "active_power_l1n",
+                    "enabled": 1
+                },
+                {
+                    "type": "active_power_l2n",
+                    "enabled": 1
+                },
+                {
+                    "type": "active_power_l3n",
+                    "enabled": 1
+                },
+                {
+                    "type": "AphA",
+                    "enabled": 1
+                },
+                {
+                    "type": "AphB",
+                    "enabled": 1
+                },
+                {
+                    "type": "AphC",
+                    "enabled": 1
+                },
+                {
+                    "type": "apparent_power_l1n",
+                    "enabled": 1
+                },
+                {
+                    "type": "apparent_power_l2n",
+                    "enabled": 1
+                },
+                {
+                    "type": "apparent_power_l3n",
+                    "enabled": 1
+                },
+                {
+                    "type": "cos_phi_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "cos_phi_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "cos_phi_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "cos_phi_total",
+                    "enabled": 1
+                },
+                {
+                    "type": "current_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "current_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "current_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "current_unbalance",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_import_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_export_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_apparent_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_unbalance",
+                    "enabled": 1
+                }
+            ]
+        },
+        {
+            "device_id": 2,
+            "asset_id": 2,
+            "enabled": 1,
+            "measurement": [
+                {
+                    "type": "hour_meter",
+                    "enabled": 1
+                },
+                {
+                    "type": "input_status",
+                    "enabled": 1
+                },
+                {
+                    "type": "internal_temp",
+                    "enabled": 1
+                },
+                {
+                    "type": "l1_phase_current_angle",
+                    "enabled": 1
+                },
+                {
+                    "type": "l1_phase_voltage_angle",
+                    "enabled": 1
+                },
+                {
+                    "type": "l2_phase_current_angle",
+                    "enabled": 1
+                },
+                {
+                    "type": "l2_phase_voltage_angle",
+                    "enabled": 1
+                },
+                {
+                    "type": "l3_phase_current_angle",
+                    "enabled": 1
+                },
+                {
+                    "type": "l3_phase_voltage_angle",
+                    "enabled": 1
+                },
+                {
+                    "type": "measured_frequency",
+                    "enabled": 1
+                },
+                {
+                    "type": "neutral_current",
+                    "enabled": 1
+                },
+                {
+                    "type": "output_sttus",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_import_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_export_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_apparent_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_unbalance",
+                    "enabled": 1
+                }
+            ]
+        },
+        {
+            "device_id": 3,
+            "asset_id": 3,
+            "enabled": 1,
+            "measurement": [
+                {
+                    "type": "active_power_l1n",
+                    "enabled": 1,
+                    "min": 0,
+                    "max": 100
+                },
+                {
+                    "type": "active_power_l2n",
+                    "enabled": 1,
+                    "min": 5,
+                    "max": 200
+                },
+                {
+                    "type": "PhVphA",
+                    "enabled": 1
+                },
+                {
+                    "type": "PhVphB",
+                    "enabled": 1
+                },
+                {
+                    "type": "PhVphC",
+                    "enabled": 1
+                },
+                {
+                    "type": "power_factor_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "power_factor_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "power_factor_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "power_factor_total",
+                    "enabled": 1
+                },
+                {
+                    "type": "power_factor_total_export",
+                    "enabled": 1
+                },
+                {
+                    "type": "power_factor_total_import",
+                    "enabled": 1
+                },
+                {
+                    "type": "PPVphAB",
+                    "enabled": 1
+                },
+                {
+                    "type": "PPVphBC",
+                    "enabled": 1
+                },
+                {
+                    "type": "PPVphCA",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_1_total_reactive_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_2_total_reactive_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_3_total_reactive_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_4_total_reactive_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "reactive_power_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "reactive_power_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "reactive_power_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "rotation_field",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_apparent_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_export_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_export_apparent_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_import_active_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_import_apparent_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_reactive_power",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_l1l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_l1n",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_l2l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_l2n",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_l3l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_l3n",
+                    "enabled": 1
+                },
+                {
+                    "type": "voltage_unbalance",
+                    "enabled": 1
+                }
+            ]
+        },
+        {
+            "device_id": 4,
+            "asset_id": 4,
+            "enabled": 1,
+            "measurement": [
+                {
+                    "type": "consumed_active_energy_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "consumed_active_energy_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "consumed_active_energy_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_consumed_active_energy",
+                    "enabled": 1
+                },
+                {
+                    "type": "delivered_active_energy_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "delivered_active_energy_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "delivered_active_energy_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_delivered_energy",
+                    "enabled": 1
+                },
+                {
+                    "type": "consumed_apparent_energy_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "consumed_apparent_energy_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "consumed_apparent_energy_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_consumed_apparent_energy",
+                    "enabled": 1
+                },
+                {
+                    "type": "delivered_apparent_energy_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "delivered_apparent_energy_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "delivered_apparent_energy_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_delivered_apparent_energy",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_1_reactive_energy_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_1_reactive_energy_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_1_reactive_energy_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_1_total_reactive_energy",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_2_reactive_energy_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_2_reactive_energy_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_2_reactive_energy_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_2_total_reactive_energy",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_3_reactive_energy_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_3_reactive_energy_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_3_reactive_energy_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_3_total_reactive_energy",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_4_reactive_energy_l1",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_4_reactive_energy_l2",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_4_reactive_energy_l3",
+                    "enabled": 1
+                },
+                {
+                    "type": "quadrant_4_total_reactive_energy",
+                    "enabled": 1
+                },
+                {
+                    "type": "pulse_meter",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_pulse_meter_input_1",
+                    "enabled": 1
+                },
+                {
+                    "type": "total_pulse_meter_input_2",
+                    "enabled": 1
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "active_power_l1n": {
+            "max": 45640,
+            "min": -962,
+            "unit": "W"
+        },
+        "active_power_l2n": {
+            "max": 45892,
+            "min": -1090,
+            "unit": "W"
+        },
+        "active_power_l3n": {
+            "max": 45236,
+            "min": -1484,
+            "unit": "W"
+        },
+        "AphA": {
+            "max": 364.6,
+            "min": 4.8,
+            "unit": "A"
+        },
+        "AphB": {
+            "max": 371.2,
+            "min": 6.2,
+            "unit": "A"
+        },
+        "AphC": {
+            "max": 365.8,
+            "min": 6,
+            "unit": "A"
+        },
+        "apparent_power_l1n": {
+            "max": 44834,
+            "min": 781,
+            "unit": "VA"
+        },
+        "apparent_power_l2n": {
+            "max": 45774,
+            "min": 774,
+            "unit": "VA"
+        },
+        "apparent_power_l3n": {
+            "max": 45169,
+            "min": 732,
+            "unit": "VA"
+        },
+        "cos_phi_l1": {
+            "max": 4294966,
+            "min": 0.016,
+            "unit": "n/a"
+        },
+        "cos_phi_l2": {
+            "max": 4294966,
+            "min": 0.056,
+            "unit": "n/a"
+        },
+        "cos_phi_l3": {
+            "max": 4294966,
+            "min": 0.1,
+            "unit": "n/a"
+        },
+        "cos_phi_total": {
+            "max": 4294966,
+            "min": 0.056,
+            "unit": "n/a"
+        },
+        "current_l1": {
+            "max": 0,
+            "min": 0,
+            "unit": "mA"
+        },
+        "current_l2": {
+            "max": 0,
+            "min": 0,
+            "unit": "mA"
+        },
+        "current_l3": {
+            "max": 0,
+            "min": 0.01,
+            "unit": "mA"
+        },
+        "current_unbalance": {
+            "max": 10000,
+            "min": 25,
+            "unit": "%"
+        },
+        "hour_meter": {
+            "max": "infinity",
+            "min": 1095,
+            "unit": "Hr"
+        },
+        "input_status": {
+            "max": 0,
+            "min": 0,
+            "unit": "n/a"
+        },
+        "internal_temp": {
+            "max": 65535,
+            "min": 65535,
+            "unit": "n/a"
+        },
+        "l1_phase_current_angle": {
+            "max": 429496729.5,
+            "min": 0,
+            "unit": "Angle"
+        },
+        "l1_phase_voltage_angle": {
+            "max": 0,
+            "min": 0,
+            "unit": "Angle"
+        },
+        "l2_phase_current_angle": {
+            "max": 429496660.3,
+            "min": 118.5,
+            "unit": "Angle"
+        },
+        "l2_phase_voltage_angle": {
+            "max": 120.3,
+            "min": 119.5,
+            "unit": "Angle"
+        },
+        "l3_phase_current_angle": {
+            "max": 429496729,
+            "min": 2.8,
+            "unit": "Angle"
+        },
+        "l3_phase_voltage_angle": {
+            "max": 429496610.1,
+            "min": 429496609.4,
+            "unit": "Angle"
+        },
+        "measured_frequency": {
+            "max": 60.05,
+            "min": 60,
+            "unit": "Hz"
+        },
+        "neutral_current": {
+            "max": 8.4,
+            "min": 0,
+            "unit": "A"
+        },
+        "output_sttus": {
+            "max": 0,
+            "min": 0,
+            "unit": "n/a"
+        },
+        "PhVphA": {
+            "max": 123.8,
+            "min": 121.1,
+            "unit": "V"
+        },
+        "PhVphB": {
+            "max": 124.3,
+            "min": 122.1,
+            "unit": "V"
+        },
+        "PhVphC": {
+            "max": 124.3,
+            "min": 121.7,
+            "unit": "V"
+        },
+        "power_factor_l1": {
+            "max": 4294967.28,
+            "min": 0.01,
+            "unit": "n/a"
+        },
+        "power_factor_l2": {
+            "max": 4294967.29,
+            "min": 0.89,
+            "unit": "n/a"
+        },
+        "power_factor_l3": {
+            "max": 4294967.27,
+            "min": 0.04,
+            "unit": "n/a"
+        },
+        "power_factor_total": {
+            "max": 4294967.27,
+            "min": 0.03,
+            "unit": "n/a"
+        },
+        "power_factor_total_export": {
+            "max": 0,
+            "min": 0,
+            "unit": "n/a"
+        },
+        "power_factor_total_import": {
+            "max": 0,
+            "min": 0,
+            "unit": "n/a"
+        },
+        "PPVphAB": {
+            "max": 214.9,
+            "min": 210.5,
+            "unit": "V"
+        },
+        "PPVphBC": {
+            "max": 215.5,
+            "min": 212,
+            "unit": "V"
+        },
+        "PPVphCA": {
+            "max": 214.7,
+            "min": 210.1,
+            "unit": "V"
+        },
+        "quadrant_1_total_reactive_power": {
+            "max": 1301.32,
+            "min": 0,
+            "unit": "var"
+        },
+        "quadrant_2_total_reactive_power": {
+            "max": 1166.6,
+            "min": 0,
+            "unit": "var"
+        },
+        "quadrant_3_total_reactive_power": {
+            "max": 0,
+            "min": -1097.53,
+            "unit": "var"
+        },
+        "quadrant_4_total_reactive_power": {
+            "max": 0,
+            "min": -5356.62,
+            "unit": "var"
+        },
+        "reactive_power_l1": {
+            "max": 1196.7,
+            "min": -951.78,
+            "unit": "var"
+        },
+        "reactive_power_l2": {
+            "max": 162.65,
+            "min": -2460.62,
+            "unit": "var"
+        },
+        "reactive_power_l3": {
+            "max": 760.74,
+            "min": -2671.95,
+            "unit": "var"
+        },
+        "rotation_field": {
+            "max": 4294967295,
+            "min": 4294967295,
+            "unit": "n/a"
+        },
+        "total_active_power": {
+            "max": 135495.5,
+            "min": -3477.15,
+            "unit": "W"
+        },
+        "total_apparent_power": {
+            "max": 135662.3,
+            "min": 2996.6,
+            "unit": "VA"
+        },
+        "total_export_active_power": {
+            "max": 0,
+            "min": -4501.03,
+            "unit": "W"
+        },
+        "total_export_apparent_power": {
+            "max": 4829.5,
+            "min": 0,
+            "unit": "VA"
+        },
+        "total_import_active_power": {
+            "max": 135.53,
+            "min": 0,
+            "unit": "kW"
+        },
+        "total_import_apparent_power": {
+            "max": 135638.3,
+            "min": 0,
+            "unit": "VA"
+        },
+        "total_reactive_power": {
+            "max": 928.81,
+            "min": -5261.89,
+            "unit": "var"
+        },
+        "voltage_l1l2": {
+            "max": 0,
+            "min": 0,
+            "unit": "V/10"
+        },
+        "voltage_l1n": {
+            "max": 0,
+            "min": 0,
+            "unit": "V/10"
+        },
+        "voltage_l2l3": {
+            "max": 0,
+            "min": 0,
+            "unit": "V/10"
+        },
+        "voltage_l2n": {
+            "max": 0,
+            "min": 0,
+            "unit": "V/10"
+        },
+        "voltage_l3l1": {
+            "max": 0,
+            "min": 0,
+            "unit": "V/10"
+        },
+        "voltage_l3n": {
+            "max": 0,
+            "min": 0,
+            "unit": "V/10"
+        },
+        "voltage_unbalance": {
+            "max": 100,
+            "min": 0,
+            "unit": "%"
+        },
+        "consumed_active_energy_l1": {
+            "max": "infinity",
+            "min": 25523897,
+            "width": 327630,
+            "unit": "Wh"
+        },
+        "consumed_active_energy_l2": {
+            "max": "infinity",
+            "min": 26142613,
+            "width": 337052,
+            "unit": "Wh"
+        },
+        "consumed_active_energy_l3": {
+            "max": "infinity",
+            "min": 25457663,
+            "width": 327941,
+            "unit": "Wh"
+        },
+        "total_consumed_active_energy": {
+            "max": "infinity",
+            "min": 77124371,
+            "width": 992627,
+            "unit": "Wh"
+        },
+        "delivered_active_energy_l1": {
+            "max": "infinity",
+            "min": 869997,
+            "width": 8800,
+            "unit": "Wh"
+        },
+        "delivered_active_energy_l2": {
+            "max": "infinity",
+            "min": 1017928,
+            "width": 10000,
+            "unit": "Wh"
+        },
+        "delivered_active_energy_l3": {
+            "max": "infinity",
+            "min": 1390490,
+            "width": 14500,
+            "unit": "Wh"
+        },
+        "total_delivered_energy": {
+            "max": "infinity",
+            "min": 3278666,
+            "width": 33338,
+            "unit": "Wh"
+        },
+        "consumed_apparent_energy_l1": {
+            "max": "infinity",
+            "min": 25602779,
+            "width": 328876,
+            "unit": "VAh"
+        },
+        "consumed_apparent_energy_l2": {
+            "max": "infinity",
+            "min": 26266670,
+            "width": 339002,
+            "unit": "VAh"
+        },
+        "consumed_apparent_energy_l3": {
+            "max": "infinity",
+            "min": 25569722,
+            "width": 329493,
+            "unit": "VAh"
+        },
+        "total_consumed_apparent_energy": {
+            "max": "infinity",
+            "min": 77439383,
+            "width": 997377,
+            "unit": "VAh"
+        },
+        "delivered_apparent_energy_l1": {
+            "max": "infinity",
+            "min": 1272631,
+            "width": 14000,
+            "unit": "VAh"
+        },
+        "delivered_apparent_energy_l2": {
+            "max": "infinity",
+            "min": 1508048,
+            "width": 16357,
+            "unit": "VAh"
+        },
+        "delivered_apparent_energy_l3": {
+            "max": "infinity",
+            "min": 1681071,
+            "width": 18073,
+            "unit": "VAh"
+        },
+        "total_delivered_apparent_energy": {
+            "max": "infinity",
+            "min": 4462003,
+            "width": 48458,
+            "unit": "VAh"
+        },
+        "quadrant_1_reactive_energy_l1": {
+            "max": "infinity",
+            "min": 126373,
+            "width": 1745,
+            "unit": "Varh"
+        },
+        "quadrant_1_reactive_energy_l2": {
+            "max": "infinity",
+            "min": 1162,
+            "unit": "Varh"
+        },
+        "quadrant_1_reactive_energy_l3": {
+            "max": "infinity",
+            "min": 7284,
+            "width": 55,
+            "unit": "Varh"
+        },
+        "quadrant_1_total_reactive_energy": {
+            "max": "infinity",
+            "min": 134825,
+            "width": 1815,
+            "unit": "Varh"
+        },
+        "quadrant_2_reactive_energy_l1": {
+            "max": "infinity",
+            "min": 43034,
+            "width": 75,
+            "unit": "Varh"
+        },
+        "quadrant_2_reactive_energy_l2": {
+            "max": "infinity",
+            "min": 520,
+            "unit": "Varh"
+        },
+        "quadrant_2_reactive_energy_l3": {
+            "max": "infinity",
+            "min": 29522,
+            "width": 52,
+            "unit": "Varh"
+        },
+        "quadrant_2_total_reactive_energy": {
+            "max": "infinity",
+            "min": 73097,
+            "width": 127,
+            "unit": "Varh"
+        },
+        "quadrant_3_reactive_energy_l1": {
+            "max": "infinity",
+            "min": 104618,
+            "width": 998,
+            "unit": "Varh"
+        },
+        "quadrant_3_reactive_energy_l2": {
+            "max": "infinity",
+            "min": 558343,
+            "width": 6628,
+            "unit": "Varh"
+        },
+        "quadrant_3_reactive_energy_l3": {
+            "max": "infinity",
+            "min": 225552,
+            "width": 2993,
+            "unit": "Varh"
+        },
+        "quadrant_3_total_reactive_energy": {
+            "max": "infinity",
+            "min": 888696,
+            "width": 10620,
+            "unit": "Varh"
+        },
+        "quadrant_4_reactive_energy_l1": {
+            "max": "infinity",
+            "min": 261069,
+            "width": 3466,
+            "unit": "Varh"
+        },
+        "quadrant_4_reactive_energy_l2": {
+            "max": "infinity",
+            "min": 1231675,
+            "width": 15478,
+            "unit": "Varh"
+        },
+        "quadrant_4_reactive_energy_l3": {
+            "max": "infinity",
+            "min": 1064515,
+            "width": 13410,
+            "unit": "Varh"
+        },
+        "quadrant_4_total_reactive_energy": {
+            "max": "infinity",
+            "min": 2557427,
+            "width": 32358,
+            "unit": "Varh"
+        },
+        "pulse_meter": {
+            "max": 8,
+            "min": 2,
+            "unit": "-"
+        },
+        "total_pulse_meter_input_1": {
+            "max": 0,
+            "min": 0,
+            "unit": "-"
+        },
+        "total_pulse_meter_input_2": {
+            "max": 0,
+            "min": 0,
+            "unit": "-"
+        }
+    }
+}
